@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 40px;
+    padding: 30px 0
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 80px;
+}
+
+.imagem img {
+    width: 340px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.541);
+}
+
+.sobre-mim p {
+    font-size: 24px;
+    font-family: sans-serif;
+    line-height: 32px;
+}
+
+.redes img {
+    width: 40px;
+    margin-right: 14px;
+    vertical-align: bottom;
+}
+
+.redes ul {
+    margin-left: 180px;
+}
+
+.redes li {
+    text-align: start;
+    margin-bottom: 50px
+}
+
+.redes li a {
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+}
+
+.redes li a:hover {
+    color: rgb(80, 80, 80);
+    text-decoration: underline;
+}

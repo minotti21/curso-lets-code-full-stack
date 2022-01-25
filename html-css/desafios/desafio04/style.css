@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1, h2 {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.container ul {
+    padding: 0 50px;
+}
+
+.container ul li {
+    padding: 10px 0;
+    font-size: 26px;
+    width: 50px;
+    transition: 0.4s;
+}
+
+.container ul li:hover {
+    font-size: 60px;
+    cursor: pointer;
+}
+
+
+

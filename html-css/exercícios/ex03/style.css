@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(244, 251, 255);
+    color: rgb(0, 104, 202);
+    overflow: auto;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 20px 10px
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+img {
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.24);
+    transition: 0.4s
+}
+
+img:hover {
+    height: 330px;
+    cursor: pointer;
+}
+
+.coelho, .cachorro, .gato {
+    padding: 20px 0;
+}
+
+.coelho {
+    margin-bottom: 30px;
+}
