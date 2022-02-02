@@ -1,0 +1,17 @@
+* {
+    font-family: sans-serif;
+}
+
+table {
+    width: 60%;
+}
+
+table, th, td {
+    border: 3px solid rgb(0, 153, 255);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td{
+    padding: 8px 0;
+}
