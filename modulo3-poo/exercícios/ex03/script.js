@@ -17,4 +17,3 @@ Aluno.prototype.getCurso = function() {
 }
 
 console.log(aluno.getCurso())
-
