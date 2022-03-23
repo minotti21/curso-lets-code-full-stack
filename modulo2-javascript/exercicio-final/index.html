@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Veículos</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Cadastro de Veículos</h1>
+        <div class="grid">
+            <form>
+                <label for="">Modelo: </label>
+                <input id="modelo" type="text" autofocus>
+                <label for="">Ano: </label>
+                <input id="ano" type="number">
+                <label for="">Cor: </label>
+                <input id="cor" type="color">
+                <label for="">Situação: </label>
+                <select id="situacao">
+                    <option value="Novo">Novo</option>
+                    <option value="Usado">Usado</option>
+                    <option value="Zero">Zero Km</option>
+                </select>
+                <label for="">Preço: </label>
+                <input id="preco" type="number">
+                <button type="reset" onclick="adicionar()">Adicionar</button>
+            </form>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Modelo</th>
+                            <th>Id</th>
+                            <th>Ano</th>
+                            <th>Cor</th>
+                            <th>Situação</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody id="lista">
+                        <tr>
+                            <td colspan="6">Não existem veículos cadastrados!</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Quantidade de Carros Cadastrados: <span id="cars-quantity">0</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
