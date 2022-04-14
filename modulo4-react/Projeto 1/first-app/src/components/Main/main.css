@@ -1,0 +1,12 @@
+
+.main {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1 {
+
+    font-size: 60px;
+}
