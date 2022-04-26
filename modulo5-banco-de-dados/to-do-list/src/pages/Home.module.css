@@ -1,0 +1,7 @@
+.homeContainer {
+    border: 2px solid black;
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
