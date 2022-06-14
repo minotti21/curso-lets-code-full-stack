@@ -25,20 +25,21 @@ http.createServer((req, res) => {
     // Verifica se a URL e o metódo eram um GET
     if (formatedUrl === '/GET/' && req.method === 'GET') {
 
+
+        
         // Lê o texto do arquivo.txt
         fs.readFile('./arquivo.txt', 'utf8', (err, data) => {
             if (err) throw err
             console.log(data)
-          })
+
+        })
 
     }
 
+    console.log(http.METHODS)
 
     // Finaliza a resposta do servidor
     res.end()
 }).listen(8080)
-
-
-
 
 
